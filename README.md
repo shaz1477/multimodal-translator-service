@@ -3,7 +3,7 @@ Multimodal AI Microservice: LangChain + FastAPI + OpenAI. Real-time translation 
 A production-ready Generative AI microservice that orchestrates a multimodal pipeline to translate text and synthesize high-fidelity audio responses. Built using LangChain (LCEL) and FastAPI, this project demonstrates modern LLM orchestration and deployment patterns.
 
 🚀 Features
-Multimodal Orchestration: Seamlessly connects GPT-4o for linguistic translation and OpenAI TTS-1 for binary audio generation.
+Multimodal Orchestration: Seamlessly connects GPT-5.4 for linguistic translation and OpenAI TTS-1 for binary audio generation.
 
 LCEL Implementation: Built using LangChain Expression Language for a declarative, efficient, and readable chain logic.
 
