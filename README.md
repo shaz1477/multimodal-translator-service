@@ -16,7 +16,7 @@ Asset Management: Custom Python logic for environment-agnostic file persistence 
 🛠️ Technical Stack
 Frameworks: LangChain, FastAPI, LangServe, Uvicorn
 
-Models: GPT-4o, OpenAI TTS-1 (Alloy Voice)
+Models: GPT-5.4, OpenAI TTS-1 (Alloy Voice)
 
 Observability: LangSmith
 
@@ -27,7 +27,7 @@ The service follows a linear chain of thought:
 
 Input: User provides target language and source text.
 
-Translation: GPT-4o processes the linguistic transformation.
+Translation: GPT-5.4 processes the linguistic transformation.
 
 Synthesis: The translated string is piped into the TTS-1 model.
 
@@ -60,6 +60,8 @@ python main.py
 🔍 API Usage
 Once the server is running, you can access the interactive playground at:
 http://127.0.0.1:8000/chain/playground
+or 
+http://127.0.0.1:8000/docs/chain/invoke (FastAPi)
 
 Sample Input:
 
@@ -74,13 +76,3 @@ Contact: mohammadshanavaz@gmail.com
 
 Master of Science in Information Quality (MSIQ)
 
-Final Professional Tips for your GitHub:
-The requirements.txt: Make sure you create this file in the same folder. It should contain:
-
-Plaintext
-langchain-openai
-langserve[all]
-fastapi
-uvicorn
-python-dotenv
-openai
