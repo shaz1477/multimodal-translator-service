@@ -1,1 +1,4 @@
-
+OPENAI_API_KEY="your-key-here"
+LANGCHAIN_API_KEY="your-langsmith-key"
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_PROJECT="multimodal-translator"
