@@ -6,4 +6,4 @@ langchain-core
 fastapi
 uvicorn
 langserve
-Runnable Lamba
+Runnablelamda
